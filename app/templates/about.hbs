@@ -1,0 +1,11 @@
+<h2>{{model.name.first}} {{model.name.last}}</h2>
+<img src="{{model.headshot.imageURL}}" width="200px" />
+<p>{{model.bio}}</p>
+<h3>Social Media</h3>
+<ul>
+    {{#if model.social.facebook}}<li><a href="{{model.social.facebook}}">Facebook</a></li>{{/if}}
+    {{#if model.social.twitter}}<li><a href="{{model.social.twitter}}">Twitter</a></li>{{/if}}
+    {{#if model.social.instagram}}<li><a href="{{model.social.instagram}}">Instagram</a></li>{{/if}}
+    {{#if model.social.linkedin}}<li><a href="{{model.social.linkedin}}">LinkedIn</a></li>{{/if}}
+    {{#if model.social.github}}<li><a href="{{model.social.github}}">Github</a></li>{{/if}}
+</ul>
