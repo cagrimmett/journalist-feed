@@ -1,7 +1,6 @@
 # journalist-feed
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An Ember learning project to make a journalist portfolio feed.
 
 ## Prerequisites
 
